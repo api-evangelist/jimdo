@@ -1,0 +1,74 @@
+name: Jimdo FinOps
+description: Financial operations guidance for Jimdo platform usage. Jimdo uses
+  a subscription-based pricing model for its website builder and ecommerce tools.
+  Cost management focuses on selecting the appropriate plan tier, leveraging annual
+  billing discounts, and monitoring ecommerce transaction costs through third-party
+  payment processors.
+url: https://www.jimdo.com/pricing/
+created: '2026-06-13'
+modified: '2026-06-13'
+
+costOptimization:
+  - strategy: Annual Billing Discount
+    description: Jimdo offers discounts of approximately 10-13% when paying annually
+      instead of monthly. Choose 12-month or 24-month billing cycles to reduce total
+      cost.
+    savingsEstimate: 10-13%
+
+  - strategy: Right-Size Plan Selection
+    description: Evaluate actual page count, storage, and bandwidth needs before
+      selecting a plan. Upgrading is available at any time, so starting with a lower
+      tier reduces unnecessary spend.
+
+  - strategy: Monitor Payment Processor Fees
+    description: Jimdo does not charge transaction fees on paid ecommerce plans,
+      but payment processors (PayPal, Stripe) charge approximately 2.9% + $0.30
+      per transaction. Monitor transaction volume to forecast processor costs.
+    externalCost:
+      processor: PayPal / Stripe
+      fee: 2.9% + $0.30 per transaction
+
+  - strategy: Free Tier for Development/Testing
+    description: The Play (Dolphin) and Free (Creator) plans are available at no
+      cost and can be used for development, testing, or low-traffic sites. Use these
+      tiers to avoid charges during evaluation periods.
+
+  - strategy: 14-Day Withdrawal Right
+    description: EU/UK consumers have a 14-day right of withdrawal on new subscriptions.
+      Use this window to evaluate paid features before committing.
+
+billing:
+  model: Subscription
+  cycles:
+    - monthly
+    - annually (12 months)
+    - biennially (24 months)
+  currency: USD
+  trialPeriod: 14 days (right of withdrawal in applicable countries)
+  transactionFees: None charged by Jimdo on paid ecommerce plans
+  thirdPartyFees:
+    - processor: PayPal
+      fee: 2.9% + $0.30 per transaction
+    - processor: Stripe
+      fee: 2.9% + $0.30 per transaction
+
+planComparison:
+  websiteBuilder:
+    lowestPaid: $11/month (Start)
+    highest: $28/month (Unlimited)
+  ecommerce:
+    lowestPaid: $15/month (Basic)
+    highest: $39/month (VIP)
+  creatorEditor:
+    lowestPaid: $9/month (Pro)
+    highest: $30/month (Platinum)
+
+references:
+  - title: Jimdo Pricing
+    url: https://www.jimdo.com/pricing/
+  - title: Jimdo Website Plans
+    url: https://www.jimdo.com/pricing/website/
+  - title: Jimdo Online Store Plans
+    url: https://www.jimdo.com/pricing/onlineshop/
+  - title: Jimdo Creator Plans
+    url: https://www.jimdo.com/pricing/creator/

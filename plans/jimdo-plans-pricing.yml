@@ -1,0 +1,170 @@
+name: Jimdo Plans and Pricing
+description: Jimdo offers tiered website builder and ecommerce plans for small businesses.
+  Plans range from a free tier to premium unlimited options, with separate tracks
+  for AI-powered Dolphin builder and the template-based Creator editor.
+url: https://www.jimdo.com/pricing/
+created: '2026-06-13'
+modified: '2026-06-13'
+
+plans:
+
+  # Jimdo Dolphin (AI Builder) - Website Plans
+  - name: Play
+    description: Free website plan with basic features and Jimdo branding.
+    url: https://www.jimdo.com/pricing/website/
+    price: 0
+    currency: USD
+    billingCycle: monthly
+    features:
+      - 5 pages
+      - 500 MB storage
+      - 2 GB bandwidth
+      - Contact forms
+      - Free stock images
+      - Jimdo branding included
+
+  - name: Start
+    description: Entry-level paid plan with custom domain and core SEO tools.
+    url: https://www.jimdo.com/pricing/website/
+    price: 11
+    currency: USD
+    billingCycle: monthly
+    features:
+      - 10 pages
+      - 5 GB storage
+      - 10 GB bandwidth
+      - Custom domain
+      - Business email
+      - SEO tools
+      - Analytics
+
+  - name: Grow
+    description: Mid-tier plan with expanded pages and priority support.
+    url: https://www.jimdo.com/pricing/website/
+    price: 17
+    currency: USD
+    billingCycle: monthly
+    features:
+      - 50 pages
+      - 15 GB storage
+      - 20 GB bandwidth
+      - Custom domain
+      - 4-hour support response
+      - 5 email forwarding addresses
+
+  - name: Unlimited
+    description: Full-featured website plan with unlimited pages and storage.
+    url: https://www.jimdo.com/pricing/website/
+    price: 28
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Unlimited storage
+      - Unlimited bandwidth
+      - Design analysis tools
+      - Premium support
+
+  # Jimdo Dolphin (AI Builder) - Ecommerce Plans
+  - name: Basic (Ecommerce)
+    description: Core ecommerce plan with payment gateway access.
+    url: https://www.jimdo.com/pricing/onlineshop/
+    price: 15
+    currency: USD
+    billingCycle: monthly
+    features:
+      - 10 pages
+      - 10 GB storage
+      - Core ecommerce tools
+      - Payment gateway access
+      - No transaction fees
+
+  - name: Business (Ecommerce)
+    description: Mid-tier ecommerce plan with product variants and discounts.
+    url: https://www.jimdo.com/pricing/onlineshop/
+    price: 19
+    currency: USD
+    billingCycle: monthly
+    features:
+      - 50 pages
+      - 15 GB storage
+      - Product discounts
+      - Product variants
+      - Multiple product layouts
+
+  - name: VIP (Ecommerce)
+    description: Premium ecommerce plan with GDPR tools and business listings.
+    url: https://www.jimdo.com/pricing/onlineshop/
+    price: 39
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Unlimited storage
+      - Business listings
+      - GDPR legal text generator
+      - Priority support
+
+  # Jimdo Creator (Template-Based Editor) Plans
+  - name: Free (Creator)
+    description: Free Creator plan with blog, password-protected areas, and no page limits.
+    url: https://www.jimdo.com/pricing/creator/
+    price: 0
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Blog
+      - Password-protected areas
+      - 5 products
+      - Jimdo branding
+
+  - name: Pro (Creator)
+    description: Creator Pro plan with no transaction fees and analytics.
+    url: https://www.jimdo.com/pricing/creator/
+    price: 9
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - 15 products
+      - No transaction fees
+      - Analytics
+      - Custom domain
+
+  - name: Business (Creator)
+    description: Creator Business plan with unlimited products and shipping configuration.
+    url: https://www.jimdo.com/pricing/creator/
+    price: 15
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Unlimited products
+      - Custom order confirmations
+      - Shipping configuration
+      - Discount codes
+
+  - name: SEO Plus (Creator)
+    description: Creator SEO Plus plan with RankingCoach integration.
+    url: https://www.jimdo.com/pricing/creator/
+    price: 20
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Unlimited products
+      - RankingCoach SEO tool
+      - All Business features
+
+  - name: Platinum (Creator)
+    description: Creator Platinum plan with professional design consultation.
+    url: https://www.jimdo.com/pricing/creator/
+    price: 30
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Unlimited pages
+      - Unlimited products
+      - Professional design consultation
+      - All SEO Plus features

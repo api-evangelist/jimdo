@@ -1,0 +1,65 @@
+aid: jimdo
+name: Jimdo
+description: Jimdo is a website builder platform that provides REST APIs for managing
+  website content, blog posts, online store products, and customer data for small
+  business websites. The platform offers AI-powered website creation tools, ecommerce
+  capabilities, and developer integrations enabling businesses to build and manage
+  their online presence programmatically.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Website Builder
+  - Ecommerce
+  - CMS
+  - Small Business
+  - Online Store
+  - Blog
+apis:
+  - aid: jimdo:jimdo-api
+    name: Jimdo API
+    description: REST API for managing Jimdo website content, blog posts, online store
+      products, orders, and customer data for small business websites built on the
+      Jimdo platform.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://dev.jimdoweb.com/
+    baseURL: https://api.jimdo.com
+    tags:
+      - Website Builder
+      - Ecommerce
+      - CMS
+      - Blog
+      - Online Store
+    properties:
+      - type: Documentation
+        url: https://dev.jimdoweb.com/
+      - type: OpenAPI
+        url: https://dev.jimdoweb.com/
+common:
+  - type: Website
+    url: https://www.jimdo.com/
+  - type: Documentation
+    url: https://dev.jimdoweb.com/
+  - type: GitHubOrg
+    url: https://github.com/Jimdo
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/jimdo/
+  - type: Blog
+    url: https://dev.jimdoweb.com/
+  - type: Pricing
+    url: https://www.jimdo.com/pricing/
+  - type: StatusPage
+    url: https://status.jimdo.com/
+  - type: X
+    url: https://x.com/jimdo
+  - type: Plans
+    url: plans/jimdo-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/jimdo-rate-limits.yml
+  - type: FinOps
+    url: finops/jimdo-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

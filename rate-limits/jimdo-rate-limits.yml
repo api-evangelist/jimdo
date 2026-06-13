@@ -1,0 +1,42 @@
+name: Jimdo API Rate Limits
+description: Rate limiting information for the Jimdo API. Jimdo does not publicly
+  document specific rate limit thresholds for their API. The following reflects
+  general platform behavior and best-practice guidance. Developers should implement
+  exponential backoff and check response headers for limit signals.
+url: https://dev.jimdoweb.com/
+created: '2026-06-13'
+modified: '2026-06-13'
+
+notes:
+  - Jimdo does not publicly publish specific numeric rate limit thresholds in their
+    developer documentation.
+  - API consumers should implement standard retry logic with exponential backoff
+    when receiving 429 Too Many Requests responses.
+  - Rate limits likely vary by plan tier, with higher-tier plans receiving
+    higher throughput allowances.
+  - Developers integrating with Jimdo APIs should monitor HTTP 429 responses
+    and adjust request cadence accordingly.
+
+general:
+  headers:
+    - name: Retry-After
+      description: Indicates how many seconds to wait before making another request
+        after a rate limit is reached.
+    - name: X-RateLimit-Limit
+      description: The maximum number of requests allowed in the current rate limit window.
+    - name: X-RateLimit-Remaining
+      description: The number of requests remaining in the current rate limit window.
+    - name: X-RateLimit-Reset
+      description: The Unix timestamp at which the current rate limit window resets.
+
+  errorCodes:
+    - code: 429
+      description: Too Many Requests. The request has been rate limited. Implement
+        exponential backoff and retry after the interval indicated by the Retry-After
+        header.
+
+references:
+  - title: Jimdo Developer Blog
+    url: https://dev.jimdoweb.com/
+  - title: Jimdo GitHub Organization
+    url: https://github.com/Jimdo
