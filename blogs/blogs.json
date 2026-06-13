@@ -1,0 +1,86 @@
+{
+  "blogSource": "https://dev.jimdoweb.com/",
+  "lastFetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "BloC Architecture in Flutter: a Modern Architectural Approach and How We Use it at Jimdo",
+      "url": "https://dev.jimdoweb.com/bloc-architecture-in-flutter/",
+      "date": "2018-09-09",
+      "author": "Jimdo Dev Blog",
+      "summary": "This article introduces the BloC (Business Logic Component) architectural pattern for Flutter development. The authors explain how Jimdo transitioned from MVP architecture to BloC when their codebase grew, finding BloC's lighter weight and minimal boilerplate advantageous compared to Redux. The piece breaks down BloC's key components—the BloC component itself, BloC providers using InheritedWidget for dependency injection, and StreamBuilder for reactive UI updates.",
+      "tags": ["flutter", "mobile", "architecture", "bloc"]
+    },
+    {
+      "title": "Flutter at Jimdo: Our Experience and Fun Moments",
+      "url": "https://dev.jimdoweb.com/flutter-at-jimdo-our-experience-and-fun-moments/",
+      "date": "2018-05-23",
+      "author": "Artem, Candost, Jörn, Matthias",
+      "summary": "Jimdo's mobile team shares their experience adopting Flutter for cross-platform development of the Jimdo Boost app. The article discusses why they selected Flutter, technical implementation details including widgets and testing approaches, deployment configurations using Travis CI and Fastlane, and candid reflections from team members on both strengths and limitations.",
+      "tags": ["flutter", "mobile", "cross-platform", "android", "ios"]
+    },
+    {
+      "title": "Container Based Crons at Jimdo",
+      "url": "https://dev.jimdoweb.com/container-based-crons-at-jimdo/",
+      "date": "2018-03-05",
+      "author": "Jimdo Dev Blog",
+      "summary": "Jimdo engineering describes their implementation of an automated task scheduling system using AWS services. The solution leverages CloudWatch Rules and ECS to execute containerized cron jobs on predetermined schedules, incorporating SNS for event routing, SQS for task state tracking via DynamoDB, and Cronitor.io for external monitoring and alerting.",
+      "tags": ["aws", "containers", "cron", "ecs", "cloudwatch", "devops"]
+    },
+    {
+      "title": "HTTPS at Jimdo",
+      "url": "https://dev.jimdoweb.com/https-at-jimdo/",
+      "date": "2017-05-02",
+      "author": "Jimdo Dev Blog",
+      "summary": "This technical post describes how Jimdo implemented HTTPS support across millions of user websites. The team leveraged Let's Encrypt with the ACME protocol to automate certificate generation, built a certificate service with an API layer and worker tier using DynamoDB, and added a proxy node for TLS termination combined with Redis caching to reduce latency across hundreds of proxy nodes.",
+      "tags": ["https", "tls", "certificates", "lets-encrypt", "security", "aws"]
+    },
+    {
+      "title": "From \"Voice and Tone\" Guidelines to UI Animations",
+      "url": "https://dev.jimdoweb.com/2016/10/07/from-voice-and-tone-guidelines-to-ui-animations/",
+      "date": "2016-10-07",
+      "author": "Jimdo Dev Blog",
+      "summary": "This article explores how Jimdo applied brand voice and tone guidelines to inform UI animation design. The author drew adjectives from their brand book to establish animation principles that feel delightful. The piece presents practical recommendations for animation timing and introduces three custom easing curves for a pattern library.",
+      "tags": ["ui", "animation", "design", "ux", "brand"]
+    },
+    {
+      "title": "How to get rid of waste",
+      "url": "https://dev.jimdoweb.com/2015/05/22/how-to-get-rid-of-waste/",
+      "date": "2015-05-22",
+      "author": "Mathias Lafeldt",
+      "summary": "This article presents five strategies for eliminating waste in software development: work incrementally, complete it or delete it, write less code, get it out of your head, and work in pairs. The author argues that reducing superfluous code, stale pull requests, and unused resources minimizes complexity and maintenance costs.",
+      "tags": ["engineering", "best-practices", "productivity", "lean"]
+    },
+    {
+      "title": "Put litter in its place",
+      "url": "https://dev.jimdoweb.com/2015/05/06/put-litter-in-its-place/",
+      "date": "2015-05-06",
+      "author": "Mathias Lafeldt",
+      "summary": "The article advocates for developers to regularly invest time in removing unnecessary code, features, and infrastructure rather than solely focusing on building new things. Lafeldt argues that cleaning up unused components reduces complexity and benefits entire teams.",
+      "tags": ["engineering", "best-practices", "productivity", "cleanup"]
+    },
+    {
+      "title": "Simple service discovery using AWS Private Hosted Zones",
+      "url": "https://dev.jimdoweb.com/2015/04/23/simple-service-discovery-using-aws-private-hosted-zones/",
+      "date": "2015-04-23",
+      "author": "Soenke Ruempler",
+      "summary": "This article presents a cost-effective approach to service discovery leveraging AWS infrastructure rather than additional tools. The author advocates for using AWS Private Hosted Zones connected to VPCs instead of deploying separate service discovery systems like Consul or Etcd, enabling simplified hostname resolution without complex orchestration tools.",
+      "tags": ["aws", "dns", "service-discovery", "infrastructure", "devops"]
+    },
+    {
+      "title": "The Jimdo Burnout Game",
+      "url": "https://dev.jimdoweb.com/2015/04/01/the-jimdo-burnout-game/",
+      "date": "2015-04-01",
+      "author": "Jimdo Dev Blog",
+      "summary": "A blog post about burnout awareness in the engineering culture at Jimdo.",
+      "tags": ["culture", "engineering", "wellness"]
+    },
+    {
+      "title": "Fast feedback is everything",
+      "url": "https://dev.jimdoweb.com/2014/11/17/fast-feedback-is-everything/",
+      "date": "2014-11-17",
+      "author": "Mathias Lafeldt",
+      "summary": "This article explores how developers can enhance productivity by minimizing the time between code changes and test results. The piece outlines three key strategies: executing individual tests rather than full test suites, creating custom test runners for specific project needs, and configuring editor keyboard shortcuts to run tests without leaving the development environment.",
+      "tags": ["testing", "productivity", "tdd", "developer-experience"]
+    }
+  ]
+}

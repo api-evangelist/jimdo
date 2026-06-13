@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Jimdo",
+  "url": "https://www.jimdo.com/",
+  "description": "Jimdo is a website builder platform that provides REST APIs for managing website content, blog posts, online store products, and customer data for small business websites. The platform offers AI-powered website creation tools, ecommerce capabilities, and developer integrations enabling businesses to build and manage their online presence programmatically.",
+  "sameAs": [
+    "https://github.com/Jimdo",
+    "https://www.linkedin.com/company/jimdo/",
+    "https://x.com/jimdo"
+  ],
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "developer support",
+    "url": "https://dev.jimdoweb.com/"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Jimdo API Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "Jimdo API",
+          "description": "REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.",
+          "applicationCategory": "WebApplication",
+          "url": "https://dev.jimdoweb.com/",
+          "softwareVersion": "REST",
+          "operatingSystem": "Cloud"
+        }
+      }
+    ]
+  },
+  "subjectOf": [
+    {
+      "@type": "Blog",
+      "name": "Jimdo Developer Blog",
+      "url": "https://dev.jimdoweb.com/",
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "BloC Architecture in Flutter: a Modern Architectural Approach and How We Use it at Jimdo",
+          "url": "https://dev.jimdoweb.com/bloc-architecture-in-flutter/",
+          "datePublished": "2018-09-09",
+          "author": {
+            "@type": "Organization",
+            "name": "Jimdo Engineering"
+          },
+          "description": "Introduction to the BloC (Business Logic Component) architectural pattern for Flutter development and how Jimdo uses it."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Flutter at Jimdo: Our Experience and Fun Moments",
+          "url": "https://dev.jimdoweb.com/flutter-at-jimdo-our-experience-and-fun-moments/",
+          "datePublished": "2018-05-23",
+          "author": {
+            "@type": "Organization",
+            "name": "Jimdo Mobile Team"
+          },
+          "description": "Jimdo's mobile team shares their experience adopting Flutter for cross-platform development of the Jimdo Boost app."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Container Based Crons at Jimdo",
+          "url": "https://dev.jimdoweb.com/container-based-crons-at-jimdo/",
+          "datePublished": "2018-03-05",
+          "author": {
+            "@type": "Organization",
+            "name": "Jimdo Engineering"
+          },
+          "description": "How Jimdo implemented automated task scheduling using AWS CloudWatch Rules, ECS, SNS, SQS, and DynamoDB for containerized cron jobs."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "HTTPS at Jimdo",
+          "url": "https://dev.jimdoweb.com/https-at-jimdo/",
+          "datePublished": "2017-05-02",
+          "author": {
+            "@type": "Organization",
+            "name": "Jimdo Engineering"
+          },
+          "description": "How Jimdo implemented HTTPS support across millions of user websites using Let's Encrypt, DynamoDB, and Redis-cached proxy nodes."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "From \"Voice and Tone\" Guidelines to UI Animations",
+          "url": "https://dev.jimdoweb.com/2016/10/07/from-voice-and-tone-guidelines-to-ui-animations/",
+          "datePublished": "2016-10-07",
+          "author": {
+            "@type": "Organization",
+            "name": "Jimdo Design"
+          },
+          "description": "How Jimdo applied brand voice and tone guidelines to inform UI animation design principles and timing."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "How to get rid of waste",
+          "url": "https://dev.jimdoweb.com/2015/05/22/how-to-get-rid-of-waste/",
+          "datePublished": "2015-05-22",
+          "author": {
+            "@type": "Person",
+            "name": "Mathias Lafeldt"
+          },
+          "description": "Five strategies for eliminating waste in software development: work incrementally, complete or delete, write less code, offload tasks, and pair programming."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Put litter in its place",
+          "url": "https://dev.jimdoweb.com/2015/05/06/put-litter-in-its-place/",
+          "datePublished": "2015-05-06",
+          "author": {
+            "@type": "Person",
+            "name": "Mathias Lafeldt"
+          },
+          "description": "Advocating for developers to regularly remove unnecessary code, features, and infrastructure to reduce complexity."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Simple service discovery using AWS Private Hosted Zones",
+          "url": "https://dev.jimdoweb.com/2015/04/23/simple-service-discovery-using-aws-private-hosted-zones/",
+          "datePublished": "2015-04-23",
+          "author": {
+            "@type": "Person",
+            "name": "Soenke Ruempler"
+          },
+          "description": "A cost-effective approach to service discovery using AWS Private Hosted Zones connected to VPCs, avoiding complex orchestration tools."
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Fast feedback is everything",
+          "url": "https://dev.jimdoweb.com/2014/11/17/fast-feedback-is-everything/",
+          "datePublished": "2014-11-17",
+          "author": {
+            "@type": "Person",
+            "name": "Mathias Lafeldt"
+          },
+          "description": "How developers can enhance productivity by minimizing the time between code changes and test results through individual test execution, custom test runners, and editor shortcuts."
+        }
+      ]
+    }
+  ]
+}
