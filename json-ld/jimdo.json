@@ -9,7 +9,7 @@
     "https://www.linkedin.com/company/jimdo/",
     "https://x.com/jimdo"
   ],
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "developer support",

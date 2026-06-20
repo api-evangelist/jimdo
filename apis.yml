@@ -5,7 +5,7 @@ description: Jimdo is a website builder platform that provides REST APIs for man
   business websites. The platform offers AI-powered website creation tools, ecommerce
   capabilities, and developer integrations enabling businesses to build and manage
   their online presence programmatically.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -23,7 +23,7 @@ apis:
     description: REST API for managing Jimdo website content, blog posts, online store
       products, orders, and customer data for small business websites built on the
       Jimdo platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://dev.jimdoweb.com/
     baseURL: https://api.jimdo.com
     tags:
