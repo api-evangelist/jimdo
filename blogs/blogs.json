@@ -150,9 +150,12 @@
     },
     {
       "source": "https://www.linkedin.com/company/jimdo/",
-      "error": "HTTPError"
+      "feed_url": "https://www.linkedin.com/company/jimdo/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 28,
-  "fetched": "2026-07-11T11:50:51Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
