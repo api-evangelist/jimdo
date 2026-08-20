@@ -24,6 +24,13 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Website Builder
+  - E-Commerce
+  - CMS
+  - Small Business
+  - Online Store
+  - Blog
+tags_raw:
+  - Website Builder
   - Ecommerce
   - CMS
   - Small Business
@@ -39,6 +46,12 @@ apis:
     humanURL: https://dev.jimdoweb.com/
     baseURL: https://api.jimdo.com
     tags:
+      - Website Builder
+      - E-Commerce
+      - CMS
+      - Blog
+      - Online Store
+    tags_raw:
       - Website Builder
       - Ecommerce
       - CMS
