@@ -5,6 +5,17 @@ description: Jimdo is a website builder platform that provides REST APIs for man
   business websites. The platform offers AI-powered website creation tools, ecommerce
   capabilities, and developer integrations enabling businesses to build and manage
   their online presence programmatically.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
