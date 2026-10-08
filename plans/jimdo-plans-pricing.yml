@@ -173,3 +173,83 @@ plans:
       - Unlimited products
       - Professional design consultation
       - All SEO Plus features
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Play
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Start
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Grow
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Unlimited
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Basic (Ecommerce)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Business (Ecommerce)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: VIP (Ecommerce)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Free (Creator)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Pro (Creator)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Business (Creator)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SEO Plus (Creator)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Platinum (Creator)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
